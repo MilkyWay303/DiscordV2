@@ -1,0 +1,32 @@
+body {
+    background-color: #1a2081;
+}
+
+body header div div a:hover{
+    text-decoration: underline
+}
+
+@media screen and (max-width: 990px) {
+    .nav1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .nav2 {
+        display: none;
+    }
+}
+    
+.nav_buttons{
+    width: 302px;
+}
+
+.navDis1 {
+    display: none;
+}
+
+.navDis2 {
+    display: block;
+    width: 350px;
+}

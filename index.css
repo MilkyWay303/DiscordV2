@@ -1,3 +1,16 @@
+.bold_text {
+    font-family: "Bowlby One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.normal_text {
+font-family: "Noto Sans JP", serif;
+font-optical-sizing: auto;
+font-weight: 300;
+font-style: normal;
+}
+
 body {
     background-color: #1a2081;
 }
@@ -29,4 +42,18 @@ body header div div a:hover{
 .navDis2 {
     display: block;
     width: 350px;
+}
+
+.width_class {
+    width: 450px;
+}
+
+.button_color1 {
+    background-color: #5865f2;
+    border-color: #5865f2;
+}
+
+.button_color2 {
+    background-color: #161bbb;
+    border-color: #161bbb;
 }

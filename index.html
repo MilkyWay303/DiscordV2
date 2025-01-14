@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
     <link rel="stylesheet" type="text/css" href="/index.css">
     <title>Discord</title>
@@ -11,7 +14,7 @@
     <header class="">
         <div class="nav1 z-10">
             <div class="flex justify-between items-center max-w-screen-lg mx-auto min-h-20">
-                <img class="" src="./images/Discord_logo.png">
+                <img class="w-32" src="./images/discord_logo.svg">
                 <div class="flex gap-x-8 text-white font-bold">
                     <a class="nav1" href="">Download</a>
                     <a class="nav1" href="">Nitro</a>
@@ -27,7 +30,7 @@
         </div>
         <div class="nav2 relative ml-auto mr-auto">
             <div class="flex items-center max-w-screen-lg mx-auto min-h-20">
-                <img id="hideLogo" class="" src="./images/Discord_logo.png">
+                <img id="hideLogo" class="w-32" src="./images/discord_logo.svg">
                 <button class="text-black rounded-full p-2 bg-white font-bold ml-auto">Open Discord</button>
                 <a id="showBar1" class="z-50">
                     <img class="scale-50" src="./images/navabar.png">
@@ -37,7 +40,7 @@
         
         <div id="navBar1" class="navDis1 h-full z-20 top-0 right-0 bg-white pt-6 pl-6 pb-9 fixed rounded-tl-lg">
                 <div class="mb-6">
-                    <img src="./images/Discord_logo2.png">
+                    <img class="w-32" src="./images/discord_logo.svg">
                 </div>
                 <div class="text-black text-left justify-start font-bold">
                     <a class="flex justify-start py-2 px-4" href="">Download</a>
@@ -50,23 +53,26 @@
                 </div>
                 <div class="absolute bottom-9">
                     <button class="nav_buttons mb-4 text-black rounded-full p-1 bg-white border-2 border-black">Open Discord</button>
-                    <button class="nav_buttons text-white rounded-full p-1 bg-blue-500 border-2 border-blue-500">Download for Windows</button>
+                    <button class="nav_buttons text-white rounded-full p-1 button_color1 border-2 ">Download</button>
                 </div>
         </div>
     </header>
     <main class="">
         <section>
-            <div class="flex justify-between pt-44 z-40 max-w-5xl gap-x-8 mb-6 mx-auto">
-                <div class="text-white text-wrap">
-                    <p class="text-5xl mb-2 pb-1.5">Group chat that's all fun </p>
-                    <p class="text-2xl">Discord is great for playing games and chilling with friends, or even building a worldwide community. Customize your own space to talk, play, and hang out.</p>
+            <div class="flex justify-between pt-40 z-40 max-w-6xl mb-6 mx-auto">
+                <div class="text-white text-wrap width_class">
+                    <p class="text-5xl mb-2 pb-1.5 bold_text">GROUP CHAT THAT'S ALL FUN & GAMES</p>
+                    <p class="text-2xl normal_text">Discord is great for playing games and chilling with friends, or even building a worldwide community. Customize your own space to talk, play, and hang out.</p>
                 </div>
-                <div>
-                    <img src="./images/discord_s1.webp">
+                <div class="">
+                    <img class="size-full" src="./images/discord_s1.webp">
                 </div>
             </div>
-            <button class="flex mb-6 nav_buttons mb-4 text-black rounded-full p-1 bg-white border-2 border-black mx-auto place-content-center" href="">Download from Google Play</button>
-        </section>
+            <div class="flex gap-x-8 justify-center mx-auto normal_text">
+                <a class="flex nav_buttons text-black font-bold rounded-full p-1 h-14 bg-white border-2 border-black place-content-center items-center" href=""><svg width="24" height="24" vievbox="0 0 24 24"><g fill="currentColor"><path d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z"></path><path d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z"></path></g></svg> Download for Windows</a>
+                <button class=" nav_buttons h-14 font-bold text-white rounded-full p-1 button_color2 border-2 place-content-center" href="">Open Discord in your browser</button>
+            </div>
+        </section>  
         <section></section>
         <section></section>
         <section></section>

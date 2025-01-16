@@ -13,9 +13,9 @@
 <body>
     <header class="">
         <div class="nav1 z-10">
-            <div class="flex justify-between items-center max-w-screen-lg mx-auto min-h-20">
+            <div class="flex justify-between items-center max-w-6xl lg:mx-8 xl:mx-auto min-h-20">
                 <img class="w-32" src="./images/discord_logo1.svg">
-                <div class="flex gap-x-8 text-white font-bold">
+                <div class="flex gap-x-7 xl:gap-x-10 text-white ">
                     <a class="nav1" href="">Download</a>
                     <a class="nav1" href="">Nitro</a>
                     <a class="nav1" href="">Discover</a>
@@ -25,25 +25,31 @@
                     <a class="nav1" href="">Blog</a>
                     <a class="nav1" href="">Careers</a>
                 </div>
-                <button class="text-black rounded-full p-2 bg-white font-bold">Open Discord</button>
+                <a href="" class="text-black rounded-full py-2 px-5 bg-white text-sm font-bold">
+                    <button>Open Discord</button>
+                </a>
             </div>
         </div>
         <div class="nav2 relative ml-auto mr-auto">
-            <div class="flex items-center max-w-screen-lg mx-auto min-h-20">
+            <div class="flex items-center max-w-6xl mx-5 md:mx-8 lg:mx-10 min-h-20">
                 <img id="hideLogo" class="w-32" src="./images/discord_logo1.svg">
-                <button class="text-black rounded-full p-2 bg-white font-bold ml-auto">Open Discord</button>
-                <a id="showBar1" class="z-50">
+                <a href="" class="text-black rounded-full py-2 px-5 bg-white ml-auto text-sm">
+                    <button>Open Discord</button>
+                </a>
+                <a id="showBar1" class="z-50 ml-2">
                     <img class="" src="./images/discord_navbar.svg">
                 </a>
             </div>
         </div>
         
-        <div id="navBar1" class="navDis1 h-full z-20 top-0 right-0 bg-white pt-6 pl-6 pb-9 fixed rounded-tl-lg">
-                <div class="mb-6">
-                    <img class="w-32" src="./images/discord_logo.svg">
+        <div id="navBar1" class="navDis1 z-40 h-full top-0 right-0 bg-white pt-6 pl-6 pb-9 fixed rounded-tl-lg">
+                <div class="mb-6 flex">
+                    <img class="w-32 invert mr-32" src="./images/discord_logo1.svg">
+                    <img class="w-6" src="./images/discord_x.svg">
                 </div>
-                <div class="text-black text-left justify-start font-bold">
-                    <a class="flex justify-start py-2 px-4" href="">Download</a>
+                <hr>
+                <div class="text-black text-left justify-start">
+                    <a class="flex justify-start py-2 px-4 mt-4" href="">Download</a>
                     <a class="flex justify-start py-2 px-4" href="">Nitro</a>
                     <a class="flex justify-start py-2 px-4" href="">Quests</a>
                     <a class="flex justify-start py-2 px-4" href="">Safety</a>
@@ -51,9 +57,13 @@
                     <a class="flex justify-start py-2 px-4" href="">Blog</a>
                     <a class="flex justify-start py-2 px-4" href="">Careers</a>
                 </div>
-                <div class="absolute bottom-9">
-                    <button class="nav_buttons mb-4 text-black rounded-full p-1 bg-white border-2 border-black">Open Discord</button>
-                    <button class="nav_buttons text-white rounded-full p-1 button_color1 border-2 ">Download</button>
+                <div class="absolute bottom-9 pt-6 pb-20 z-10 text-sm">
+                    <a href="">
+                        <button class="nav_buttons2 mb-4 text-black rounded-full p-1 bg-white border-2 border-black">Open Discord</button>
+                    </a>
+                    <a href=""> 
+                        <button class="nav_buttons2 text-white rounded-full p-1 button_color1 border-2">Download</button>
+                    </a>
                 </div>
         </div>
     </header>
@@ -68,9 +78,11 @@
                     <img class="size-full" src="./images/discord_s1.webp">
                 </div>
             </div>
-            <div class="flex gap-x-8 justify-center mx-auto normal_text">
-                <a class="flex nav_buttons text-black font-bold rounded-full p-1 h-14 bg-white border-2 border-black place-content-center items-center" href=""><svg width="24" height="24" vievbox="0 0 24 24"><g fill="currentColor"><path d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z"></path><path d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z"></path></g></svg> Download for Windows</a>
-                <button class=" nav_buttons h-14 font-bold text-white rounded-full p-1 button_color2 border-2 place-content-center" href="">Open Discord in your browser</button>
+            <div class="flex gap-x-8 justify-center mx-auto normal_text text-xl">
+                <a class="flex nav_buttons text-black rounded-full p-1 h-14 bg-white border-2 border-black place-content-center items-center" href=""><svg width="24" height="24" vievbox="0 0 24 24"><g fill="currentColor"><path d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z"></path><path d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z"></path></g></svg> Download for Windows</a>
+                <a href="">
+                    <button class="nav_buttons h-14 text-white rounded-full p-1 button_color2 border-2 place-content-center">Open Discord in your browser</button>
+                </a>
             </div>
         </section>  
         <section class="flex px-6 md:px-10 md:place-content-center">

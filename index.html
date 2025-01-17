@@ -72,18 +72,21 @@
         </div>
     </header>
     <main class="">
-        <section>
-            <div class="flex justify-between pt-40 z-40 max-w-6xl mb-6 mx-auto">
-                <div class="text-white text-wrap width_class">
-                    <p class="text-5xl mb-2 pb-1.5 bold_text">GROUP CHAT THAT'S ALL FUN & GAMES</p>
-                    <p class="text-2xl normal_text">Discord is great for playing games and chilling with friends, or even building a worldwide community. Customize your own space to talk, play, and hang out.</p>
+        <section class="px-6 md:pt-10">
+            <div class="flex justify-between z-40 max-w-6xl mb-6 mx-auto grid grid-cols-1 lg:grid-cols-5 gap-y-10">
+                <div class="md:hidden">
+                    <img class="max_width_img" src="./images/discord_s1-2.webp" alt="monitor with people around">
                 </div>
-                <div class="">
-                    <img class="size-full" src="./images/discord_s1.webp" alt="monitor with people around">
+                <div class="text-white text-wrap width_class col-span-2 order-2 lg:order-1 text-center lg:text-left lg:pl-20 xl:pl-0">
+                    <p class="text-3xl md:text-4xl xl:text-5xl mb-2 pb-1.5 bold_text px-10 md:px-24 lg:px-4 lg:pt-20">GROUP CHAT THAT'S ALL FUN & GAMES</p>
+                    <p class="text-base lg:text-lg xl:text-2xl normal_text px-4">Discord is great for playing games and chilling with friends, or even building a worldwide community. Customize your own space to talk, play, and hang out.</p>
+                </div>
+                <div class="flex hidden md:block col-span-3 order-1 justify-self-center">
+                    <img class="max_height_img items-center" src="./images/discord_s1.webp" alt="monitor with people around">
                 </div>
             </div>
-            <div class="flex gap-x-8 justify-center mx-auto normal_text text-xl">
-                <a class="flex nav_buttons text-black rounded-full p-1 h-14 bg-white border-2 border-black place-content-center items-center" href=""><svg width="24" height="24" vievbox="0 0 24 24"><g fill="currentColor"><path d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z"></path><path d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z"></path></g></svg> Download for Windows</a>
+            <div class="flex flex-col md:flex-row gap-x-8 justify-center mx-auto normal_text text-xl items-center">
+                <a class="flex nav_buttons text-black rounded-full p-1 h-14 bg-white border-2 border-black place-content-center items-center mb-4 md:mb-0" href=""><svg width="24" height="24" vievbox="0 0 24 24"><g fill="currentColor"><path d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z"></path><path d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z"></path></g></svg> Download for Windows</a>
                 <a href="">
                     <button class="nav_buttons h-14 text-white rounded-full p-1 button_color2 border-2 place-content-center">Open Discord in your browser</button>
                 </a>
@@ -97,7 +100,7 @@
                     </video>
                 </div>
                 <div class="text-white md:col-span-2 md:place-content-center order-1 md:order-2 ml-11 mr-9 md:ml-0 md:mr-0">
-                    <p class="mb-2 pb-1.5 bold_text text-3xl xl:text-4xl">MAKE YOUR<br> GROUP CHATS<br> MORE FUN</p>
+                    <h2 class="mb-2 pb-1.5 bold_text text-3xl xl:text-4xl text-wrap">MAKE YOUR GROUP CHATS MORE FUN</h2>
                     <p class="normal_text text-base lg:text-lg xl:text-2xl">Use custom emoji, stickers, soundboard effects and more to add your personality to your voice, video, or text chat. Set your avatar and a custom status, and write your own profile to show up in chat your way.</p>
                 </div>
             </div>
@@ -110,7 +113,7 @@
                     </video>
                 </div>
                 <div class="text-white md:col-span-2 md:place-content-center order-1 ml-11 mr-9 md:ml-0 md:mr-0">
-                    <p class="mb-2 pb-1.5 bold_text text-3xl xl:text-4xl">STREAM LIKE<br> YOU'RE IN THE<br> ROOM</p>
+                    <h2 class="mb-2 pb-1.5 bold_text text-3xl xl:text-4xl">STREAM LIKE YOU'RE IN THE ROOM</h2>
                     <p class="normal_text text-base lg:text-lg xl:text-2xl">High quality and low latency streaming makes it feel like you're hanging out on the couch with friends while playing a game, watching shows, looking at photos, or idk doing homework or something.</p>
                 </div>
             </div>
@@ -123,7 +126,7 @@
                     </video>
                 </div>
                 <div class="text-white md:col-span-2 md:place-content-center order-1 md:order-2 ml-11 mr-9 md:ml-0 md:mr-0">
-                    <p class="mb-2 pb-1.5 bold_text text-3xl xl:text-4xl">HOP IN WHEN<br> YOU'RE FREE,<br> NO NEED TO<br> CALL</p>
+                    <h2 class="mb-2 pb-1.5 bold_text text-3xl xl:text-4xl">HOP IN WHEN YOU'RE FREE, NO NEED TO CALL</h2>
                     <p class="normal_text text-base lg:text-lg xl:text-2xl">Easily hop in and out of voice or text chats without having to call or invite anyone, so your party chat lasts before, during, and after your game session.</p>
                 </div>
             </div>
@@ -136,7 +139,7 @@
                     </video>
                 </div>
                 <div class="text-white md:col-span-2 md:place-content-center order-1 ml-11 mr-9 md:ml-0 md:mr-0">
-                    <p class="mb-2 pb-1.5 bold_text text-3xl xl:text-4xl">SEE WHO'S<br> AROUND TO<br> CHILL</p>
+                    <h2 class="mb-2 pb-1.5 bold_text text-3xl xl:text-4xl">SEE WHO'S AROUND TO CHILL</h2>
                     <p class="normal_text text-base lg:text-lg xl:text-2xl">See who's around, playing games, or just hanging out. For supported games, you can see what modes or characters your friends are playing and directly join up.</p>
                 </div>
             </div>
@@ -149,7 +152,7 @@
                     </video>
                 </div>
                 <div class="text-white md:col-span-2 md:place-content-center order-1 md:order-2 ml-11 mr-9 md:ml-0 md:mr-0">
-                    <p class="mb-2 pb-1.5 bold_text text-3xl xl:text-4xl">ALWAYS HAVE<br> SOMETHING TO<br> DO TOGETHER</p>
+                    <h2 class="mb-2 pb-1.5 bold_text text-3xl xl:text-4xl">ALWAYS HAVE SOMETHING TO DO TOGETHER</h2>
                     <p class="normal_text text-base lg:text-lg xl:text-2xl">Watch videos, play built-in games, listen to music, or just scroll together and spam memes. Seamlessly text, call, video chat, and play games, all in one group chat.</p>
                 </div>
             </div>
@@ -162,7 +165,7 @@
                     </video>
                 </div>
                 <div class="text-white md:col-span-2 md:place-content-center order-1 ml-11 mr-9 md:ml-0 md:mr-0">
-                    <p class="mb-2 pb-1.5 bold_text text-3xl xl:text-4xl">WHEREVER<br> YOU GAME,<br> HANG OUT<br> HERE</p>
+                    <h2 class="mb-2 pb-1.5 bold_text text-3xl xl:text-4xl">WHEREVER YOU GAME, HANG OUT HERE</h2>
                     <p class="normal_text text-base lg:text-lg xl:text-2xl">On your PC, phone, or console, you can still hang out on Discord. Easily switch between devices and use tools to manage multiple group chats with friends.</p>
                 </div>
             </div>

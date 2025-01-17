@@ -22,18 +22,6 @@ body {
 body header div div a:hover{
     text-decoration: underline
 }
-
-@media screen and (max-width: 990px) {
-    .nav1 {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 990px) {
-    .nav2 {
-        display: none;
-    }
-}
     
 .nav_buttons{
     width: 290px;
@@ -75,10 +63,25 @@ body header div div a:hover{
     border-radius: 55px;
 }
 
+
+
+@media screen and (max-width: 990px) {
+    .nav1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .nav2 {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 1280px) {
     .responsive_width {
         max-width: 1300px;
     }
+    
 }
 
 @media screen and (max-width: 1280px) {
@@ -87,5 +90,10 @@ body header div div a:hover{
     }
 }
 
+.max_height_img {
+    max-height: 401px;
+}
 
-
+.max_weidth_img {
+    max-width: 616px;
+}

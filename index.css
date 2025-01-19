@@ -17,6 +17,8 @@ section {
 
 body {
     background-color: #1a2081;
+    background-size: 100vw;
+    background-image: url(https://cdn.discordapp.com/assets/homepage/background-art__2__720.png);
 }
 
 body header div div a:hover{
@@ -97,3 +99,22 @@ body header div div a:hover{
 .max_weidth_img {
     max-width: 616px;
 }
+
+.line_bg {
+    background-image: url(https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/664f259f33b6731b7df75db4_line-move.webp);
+}
+
+
+.line_transform {
+    display: inline-block;
+    animation: scroll-left 15s linear infinite;
+}
+
+@keyframes scroll-left {
+    0% {
+      transform: translateX(0%); /* Start off-screen to the right */
+    }
+    100% {
+      transform: translateX(-50%); /* End off-screen to the left */
+    }
+  }

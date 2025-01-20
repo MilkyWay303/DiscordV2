@@ -92,6 +92,12 @@ body header div div a:hover{
     }
 }
 
+@media screen and (min-width: 1900px) {
+    .discord_discord_w {
+        width: 1279px;
+    }
+}
+
 .max_height_img {
     max-height: 401px;
 }

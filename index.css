@@ -124,3 +124,34 @@ body header div div a:hover{
       transform: translateX(-50%); /* End off-screen to the left */
     }
   }
+
+.gradient_bg {
+    background-image: linear-gradient(135deg, #ffffff4d, #ffffff0d);
+    backdrop-filter: blur(100px);
+}
+
+footer div div div a:hover{
+    text-decoration: underline;
+}
+
+footer div div div a{
+    margin-top: 8px;
+}
+
+footer div div div h1{
+    margin-bottom: 16px;
+}
+
+.footer_w {
+    max-width: 1180px;
+}
+
+.footer_line {
+    backdrop-filter: blur(20px);
+    min-height: 4px;
+    background-image: linear-gradient(135deg, #fff3, #ffffff0a);
+}
+
+.block_scroll {
+    overflow-y: hidden
+}

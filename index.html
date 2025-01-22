@@ -15,7 +15,7 @@
     <title>Discord</title>
 </head>
 <body id="body">
-    <header class="sticky lg:static top-0 z-30">
+    <header id="header" class="sticky lg:static top-0 z-30">
         <div class="nav1 z-10">
             <div class="flex justify-between items-center max-w-6xl lg:mx-8 xl:mx-auto min-h-20">
                 <img class="w-32" src="./images/discord_logo1.svg" alt="discord logo">
@@ -248,7 +248,42 @@
                 <div class="col-span-4">
                     <div class="flex grid grid-cols-1">
                         <div class="my-6">
-                            multiselector
+                            <div tabindex="0" class="" role="button">
+                                <label for="language"></label>
+                                <select name="language" id="languages" class="text-black border-0 bg-transparent w-1/2 rounded-lg">
+                                  <option value="čeština">Čeština</option>
+                                  <option value="dansk">Dansk</option>
+                                  <option value="deutsch">Deutsch</option>
+                                  <option value="english">English</option>
+                                  <option value="english (UK)">English (UK)</option>
+                                  <option value="español">Español</option>
+                                  <option value="español_américa_latina">Español (América Latina)</option>
+                                  <option value="français">Français</option>
+                                  <option value="hrvatski">Hrvatski</option>
+                                  <option value="italiano">Italiano</option>
+                                  <option value="lietuvių kalba">lietuvių kalba</option>
+                                  <option value="magyar">Magyar</option>
+                                  <option value="nederlands">Nederlands</option>
+                                  <option value="norsk">Norsk</option>
+                                  <option value="polski">Polski</option>
+                                  <option value="português_brasil">Português (Brasil)</option>
+                                  <option value="română">Română</option>
+                                  <option value="suomi">Suomi</option>
+                                  <option value="svenska">Svenska</option>
+                                  <option value="tiếng_việt">Tiếng Việt</option>
+                                  <option value="türkçe">Türkçe</option>
+                                  <option value="eλληνικά">Ελληνικά</option>
+                                  <option value="български">български</option>
+                                  <option value="pусский">Русский</option>
+                                  <option value="українська">Українська</option>
+                                  <option value="हिंदी">हिंदी</option>
+                                  <option value="ไทย">ไทย</option>
+                                  <option value="한국어">한국어</option>
+                                  <option value="中文">中文</option>
+                                  <option value="中文(繁體)">中文(繁體)</option>
+                                  <option value="日本語">日本語</option>
+                                </select> 
+                            </div>
                         </div>
                         <div class="flex mt-6">
                             <a href="" class="mr-7"><img src="./images/x_logo.svg" alt="x/twitter logo"></a>
@@ -305,7 +340,7 @@
                 <a href="">
                     <img class="w-32" src="./images/discord_logo1.svg" alt="discord logo">
                 </a>
-                <a href="" class="text-white rounded-full py-2 px-5 button_color1 text-sm font-bold">
+                <a href="" class="text-white rounded-full py-2 px-3.5 button_color1 text-sm font-bold">
                     <button>Open Discord</button>
                 </a>
             </div>

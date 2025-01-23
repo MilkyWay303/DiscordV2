@@ -20,4 +20,4 @@ function scrollHead() {
     if (document.documentElement.scrollTop < 50) {
     head.classList.remove("header_color");
     }
-  }
+ }

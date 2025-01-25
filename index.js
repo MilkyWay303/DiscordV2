@@ -4,12 +4,6 @@ const navbar = document.getElementById("navBar1");
 const body = document.getElementById("body")
 const head = document.getElementById("header")
 
-button.addEventListener("click", () => {
-    navbar.classList.toggle("navDis1");
-    navbar.classList.toggle("navDis2");
-    logo.classList.toggle("navDis1");
-    body.classList.toggle("block_scroll")
-});
 
 window.onscroll = function() {scrollHead()};
 
@@ -20,4 +14,18 @@ function scrollHead() {
     if (document.documentElement.scrollTop < 50) {
     head.classList.remove("header_color");
     }
- }
+}
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "322px";
+    document.getElementById("mySidenav").style.paddingLeft = "24px"
+    logo.classList.toggle("navDis1");
+    body.classList.toggle("block_scroll")
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0px";
+    document.getElementById("mySidenav").style.paddingLeft = "0px";
+    logo.classList.toggle("navDis1");
+    body.classList.toggle("block_scroll")
+}

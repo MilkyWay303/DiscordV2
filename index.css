@@ -42,10 +42,6 @@ body header div div a:hover{
     width: 322px;
 }
 
-.width_class {
-    width: 450px;
-}
-
 .button_color1 {
     background-color: #5865f2;
     border-color: #5865f2;
@@ -163,4 +159,8 @@ footer div div div h1{
 
 option {
     font-size: 14px;
+}
+
+.slide {
+    transition: 0.5s;
 }
